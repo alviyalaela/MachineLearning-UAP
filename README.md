@@ -27,12 +27,15 @@ Berikut adalah contoh masing-masing citra setiap kelas:
 
 ## Image Preprocessing
 Setiap citra dalam dataset diresize dengan ukuran (224, 224), kemudian diaugmentasi dengan parameter sebagai berikut:
+
 ![image](https://github.com/alviyalaela/MachineLearning-UAP/blob/main/Assets/Augmentation_Parameter.png?raw=true)
 
 Berikut adalah contoh dataset yang telah diaugmentasi:
+
 ![image](https://github.com/alviyalaela/MachineLearning-UAP/blob/main/Assets/Augmented_images.png?raw=true)
 
 Setelah dilakukan *resize* dan *augmentasi,* citra displit menjadi data *training, validation,* dan *testing* dengan proporsi 80:10:10. Berikut hasil *splitting:*
+
 ![image](https://github.com/alviyalaela/MachineLearning-UAP/blob/main/Assets/Splitting_Data.png?raw=true)
 
 
@@ -41,11 +44,11 @@ Setelah dilakukan *resize* dan *augmentasi,* citra displit menjadi data *trainin
 Dalam project ini, author menggunakan algoritma [MobileNetV2](https://keras.io/api/applications/mobilenet/) dan [ResNet101](https://pytorch.org/vision/main/models/generated/torchvision.models.resnet101.html#resnet101). Kedua algoritma dibandingkan untuk menghasilkan model terbaik.
 
 **MobileNetV2 Architecture**
-![image](https://www.researchgate.net/publication/350152088/figure/fig1/AS:1002717703045121@1616077938892/The-proposed-MobileNetV2-network-architecture.png)
+![image](https://github.com/alviyalaela/MachineLearning-UAP/blob/main/Assets/MobileNet_architecture.png?raw=true)
 
 
 **ResNet Architecture**
-![image](https://www.researchgate.net/publication/378738074/figure/fig2/AS:11431281238761509@1714058388876/Structure-of-the-ResNet101-model.tif)
+![image](https://github.com/alviyalaela/MachineLearning-UAP/blob/main/Assets/ResNet101_architecture.png?raw=true)
 
 ## Model Output
 Berikut adalah hasil dari model yang telah dibangun:
